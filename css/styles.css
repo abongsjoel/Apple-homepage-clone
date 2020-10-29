@@ -50,6 +50,7 @@ main nav {
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
+  font-family: 'Telex', sans-serif;
 }
 
 main nav ul,
