@@ -143,6 +143,10 @@ footer nav li {
   padding: 0 5px;
 }
 
+footer nav li:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
 footer a {
   text-decoration: none;
   color: #0088cc;
