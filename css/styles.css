@@ -10,6 +10,10 @@ main {
 }
 
 main .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background: blue url("/assets/hero.jpg") 50% 100% no-repeat;
@@ -33,8 +37,8 @@ nav li a {
 main nav {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 10%;
+  margin-top: -16%;
+  margin-bottom: 10%;
 }
 
 main nav ul {
@@ -61,10 +65,46 @@ main li:last-child i {
   position: absolute;
   top: 35%;
   left: 20%;
-  font-size: 12px;
+  font-size: 12px;  
   color: white;
 }
 
+main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fcfdfd;
+  width:50%;
+}
 
+main .content h1 {
+  font-size: 72px;
+  font-weight: lighter;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 3%;
+  
+}
 
+main .content h2 {
+  font-size: 30px;
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 3%;
+}
 
+main .content a {
+  color: #fcfdfd;
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 26px;
+}
+
+main .content a:hover {
+  text-decoration: underline;
+}
+
+main .content i {
+  font-size: 25px;
+}
