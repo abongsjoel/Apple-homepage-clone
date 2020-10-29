@@ -59,8 +59,9 @@ main nav li:last-child {
 
 main li:last-child i {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 20%;
+  font-size: 12px;
   color: white;
 }
 
