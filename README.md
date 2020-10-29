@@ -2,17 +2,17 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Positioning and Floating Elements
+# Building with Backgrounds and Gradients
 
-> On this project we make a single page clone of a NYT article
+> On this project we make a single page clone of an old Apple home page.
 
-![screenshot](https://raw.githubusercontent.com/leolpaz/NYT-article-clone/Features/app_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/abongsjoel/Apple-homepage-clone/features/app_screenshot.png)
 
-We made a clone of a NYT article page, on this page we fit all the text in the original page, made a fixed top-bar, we also worked with grids and flex to properly do the structure at page end, we also used positioning fo position certain elements to the side of the page without disrupting the flow of the page.
+We made a clone of an old Apple page, on this page we worked with gradients to make their first nav bar, as well as the positioning of background and the styling of links to match the original page.
 
 ## Live Demo
 
-- [Visit Page](https://raw.githack.com/leolpaz/NYT-article-clone/Features/index.html)
+- [Visit Page](https://raw.githack.com/abongsjoel/Apple-homepage-clone/features/index.html)
 
 ## Built With
 
