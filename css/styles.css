@@ -138,7 +138,8 @@ footer nav li {
   padding: 0 5px;
 }
 
-footer nav li:not(:last-child) {
+footer nav li:not(:last-child),
+footer .copyright a:not(:last-child) {
   border-right: 1px solid #ccc;
 }
 
@@ -149,4 +150,8 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+footer .copyright a {
+  padding: 0 5px;
 }
