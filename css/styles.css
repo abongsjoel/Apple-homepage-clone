@@ -16,15 +16,24 @@ main .hero {
   height: 600px;
   background: blue url("/assets/hero.jpg") 50% 100% no-repeat;
   background-size: cover;
-} 
+}
 
 main nav li {
   display: inline-block;
   padding: 10px 30px;
 }
 
+footer nav li {
+  padding: 0 5px;
+}
+
 main nav li:not(:last-child) {
   border-right: 1px solid #515151;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
 }
 
 main nav a {
@@ -40,7 +49,7 @@ main nav {
 
 main nav ul {
   background-color: #686868;
-  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%,#686868 80%, #8f8f8f 95% );
+  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%, #686868 80%, #8f8f8f 95%);
   border-radius: 5px;
 }
 
@@ -50,7 +59,7 @@ main input.search {
   border-radius: 12px;
   padding: 5px;
   background-color: #686868;
-  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%,#686868 80%, #8f8f8f 95% );
+  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%, #686868 80%, #8f8f8f 95%);
   border: 1px solid #303030;
 }
 
@@ -58,11 +67,15 @@ main nav li:last-child {
   position: relative;
 }
 
+main .content i {
+  font-size: 25px;
+}
+
 main li:last-child i {
   position: absolute;
   top: 35%;
   left: 20%;
-  font-size: 12px;  
+  font-size: 12px;
   color: white;
 }
 
@@ -80,7 +93,6 @@ main .content h1 {
   font-weight: lighter;
   font-family: 'roboto', sans-serif;
   margin-bottom: 3%;
-  
 }
 
 main .content h2 {
@@ -98,12 +110,12 @@ main .content a {
   font-size: 26px;
 }
 
-main .content a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
-main .content i {
-  font-size: 25px;
+main .content a:hover {
+  text-decoration: underline;
 }
 
 main .image-holder {
@@ -134,22 +146,9 @@ footer nav ul {
   justify-content: flex-end;
 }
 
-footer nav li {
-  padding: 0 5px;
-}
-
 footer nav li:not(:last-child),
 footer .copyright a:not(:last-child) {
   border-right: 1px solid #ccc;
-}
-
-footer a {
-  text-decoration: none;
-  color: #0088cc;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 footer .copyright a {
