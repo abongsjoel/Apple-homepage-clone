@@ -5,7 +5,7 @@ body {
 
 main {
   width: 100vw;
-  height: 110%;
+  height: 100%;
 }
 
 .container {
@@ -120,6 +120,34 @@ main .image-holder img {
   width: 100%;
 }
 
-footer nav {
-  background: green;
+footer {
+  font-size: 12px;
+  margin-top: -2%;
+}
+
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer nav li {
+  padding: 0 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
