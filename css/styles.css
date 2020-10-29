@@ -40,6 +40,30 @@ main nav {
 main nav ul {
   background-color: #686868;
   background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%,#686868 80%, #8f8f8f 95% );
+  border-radius: 5px;
 }
+
+main input.search {
+  height: 24px;
+  width: 130px;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: #686868;
+  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%,#686868 80%, #8f8f8f 95% );
+  border: 1px solid #303030;
+}
+
+main nav li:last-child {
+  position: relative;
+}
+
+main li:last-child i {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: white;
+}
+
+
 
 
