@@ -5,10 +5,6 @@ main {
   width: 100vw;
 }
 
-.container {
-  padding: 0 5%;
-}
-
 main .hero {
   display: flex;
   flex-direction: column;
