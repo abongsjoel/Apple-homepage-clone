@@ -18,7 +18,11 @@ main .hero {
 
 main nav li {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 10px 30px;
+}
+
+main nav li:not(:last-child) {
+  border-right: 1px solid #515151;
 }
 
 nav li a {
