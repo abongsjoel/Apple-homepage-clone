@@ -114,6 +114,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer .copyright a {
+  padding: 0 5px;
+}
+
 main .content a:hover {
   text-decoration: underline;
 }
@@ -149,8 +153,4 @@ footer nav ul {
 footer nav li:not(:last-child),
 footer .copyright a:not(:last-child) {
   border-right: 1px solid #ccc;
-}
-
-footer .copyright a {
-  padding: 0 5px;
 }
