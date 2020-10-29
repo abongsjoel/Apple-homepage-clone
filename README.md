@@ -12,7 +12,7 @@ We made a clone of an old Apple page, on this page we worked with gradients to m
 
 ## Live Demo
 
-- [Visit Page](https://raw.githack.com/abongsjoel/Apple-homepage-clone/features/index.html)
+- [Visit Page](https://abongsjoel.github.io/Apple-homepage-clone/)
 
 ## Built With
 
