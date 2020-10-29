@@ -26,4 +26,16 @@ nav li a {
   text-decoration: none;
 }
 
+main nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+}
+
+main nav ul {
+  background-color: #686868;
+  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%,#686868 80%, #8f8f8f 95% );
+}
+
 
