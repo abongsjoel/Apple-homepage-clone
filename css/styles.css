@@ -49,11 +49,20 @@ main nav {
   margin-bottom: 5%;
 }
 
-main nav ul {
-  display: flex;
-  background-color: #686868;
+main nav ul,
+main input.search {
   background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%, #686868 80%, #8f8f8f 95%);
   border-radius: 5px;
+}
+
+main nav ul {
+  display: flex;
+  align-items: center;
+  background-color: #686868;
+}
+
+main .fa-apple {
+  font-size: 18px;
 }
 
 main input.search {
@@ -61,8 +70,6 @@ main input.search {
   width: 130px;
   border-radius: 12px;
   padding: 5px;
-  background-color: #686868;
-  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%, #686868 80%, #8f8f8f 95%);
   border: 1px solid #303030;
 }
 
