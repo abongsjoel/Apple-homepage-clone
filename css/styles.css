@@ -108,3 +108,12 @@ main .content a:hover {
 main .content i {
   font-size: 25px;
 }
+
+main .image-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+main .image-holder img {
+  width: 100%;
+}
