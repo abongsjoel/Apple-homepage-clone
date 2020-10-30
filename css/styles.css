@@ -108,8 +108,9 @@ main .content h1 {
 }
 
 main .content h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'roboto', sans-serif;
+  font-weight: lighter;
   text-align: center;
   line-height: 1.3;
   margin-bottom: 3%;
@@ -118,7 +119,7 @@ main .content h2 {
 main .content a {
   color: #fcfdfd;
   padding-right: 10px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 footer .copyright a {
@@ -133,6 +134,7 @@ main .content a:hover {
 main .image-holder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
 }
 
 main .image-holder img {
@@ -140,7 +142,7 @@ main .image-holder img {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 20px;
   font-family: 'Telex', sans-serif;
 }
