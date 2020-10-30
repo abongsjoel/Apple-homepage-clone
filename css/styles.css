@@ -1,0 +1,171 @@
+body {
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+}
+
+main .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background: blue url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% no-repeat;
+  background-size: cover;
+  font-family: 'Telex', sans-serif;
+}
+
+main nav li {
+  display: flex;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+footer nav li {
+  padding: 0 5px;
+}
+
+main nav li:not(:last-child) {
+  border-right: 1px solid #515151;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: #08c;
+}
+
+main nav a {
+  color: white;
+}
+
+main nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  font-family: 'Telex', sans-serif;
+}
+
+main nav ul,
+main input.search {
+  background-image: linear-gradient(#8f8f8f, #8f8f8f 49%, #5e5e5e 49%, #5e5e5e 51%, #686868 51%, #686868 80%, #8f8f8f 95%);
+  border-radius: 5px;
+}
+
+main nav ul {
+  display: flex;
+  align-items: center;
+  background-color: #686868;
+}
+
+main .fa-apple {
+  font-size: 18px;
+}
+
+main input.search {
+  height: 24px;
+  width: 130px;
+  border-radius: 12px;
+  padding: 5px;
+  border: 1px solid #303030;
+}
+
+main nav li:last-child {
+  position: relative;
+}
+
+main .content i {
+  font-size: 25px;
+}
+
+main li:last-child i {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  font-size: 12px;
+  color: white;
+}
+
+main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fcfdfd;
+  width: 60%;
+}
+
+main .content h1 {
+  font-size: 72px;
+  font-weight: lighter;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 3%;
+}
+
+main .content h2 {
+  font-size: 28px;
+  font-family: 'roboto', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 3%;
+}
+
+main .content a {
+  color: #fcfdfd;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+footer .copyright a {
+  padding: 0 5px;
+}
+
+footer a:hover,
+main .content a:hover {
+  text-decoration: underline;
+}
+
+main .image-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
+main .image-holder img {
+  width: 100%;
+}
+
+footer {
+  font-size: 11px;
+  margin-top: 20px;
+  font-family: 'Telex', sans-serif;
+}
+
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer nav li:not(:last-child),
+footer .copyright a:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+main nav li:hover:not(:last-child) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
