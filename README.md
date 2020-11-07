@@ -8,7 +8,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/abongsjoel/Apple-homepage-clone/features/app_screenshot.png)
 
-We made a clone of an old Apple page, on this page we worked with gradients to make their first nav bar, as well as the positioning of background and the styling of links to match the original page.
+We made a clone of an old Apple page, on this page we worked with gradients to make a nav bar, as well as the positioning of background and the styling of links to match the original page.
 
 ## Live Demo
 
