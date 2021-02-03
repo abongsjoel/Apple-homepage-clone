@@ -39,9 +39,17 @@ We worked with gradients to make a nav bar, as well as the positioning of backgr
 - [w3schools](https://www.w3schools.com)
 - Our standup team
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/StarSheriff2/bubble-sort/issues).
+
 ## Show your support
+
 Give a ⭐️ if you like this project!
 
 ## License
+
   <p>This project is <a href="../Features/LICENSE">MIT</a> licensed.</p>
 
