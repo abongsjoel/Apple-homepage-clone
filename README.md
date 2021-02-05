@@ -43,7 +43,7 @@ We worked with gradients to make a nav bar, as well as the positioning of backgr
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/StarSheriff2/bubble-sort/issues).
+Feel free to check the [issues page](https://github.com/abongsjoel/Apple-homepage-clone/issues).
 
 ## Show your support
 
